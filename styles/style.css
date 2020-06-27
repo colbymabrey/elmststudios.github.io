@@ -1,25 +1,27 @@
+ .vidcenter {
+    position: relative;
+    text-align: center;
+    top: 100px;
 
-      .img-container {
-        text-align: center;
-      }
-      .vidcenter{
-          text-align: center;
+ } 
           
-      }
-    * {
-            margin: 0;
-            padding: 0;
-        }
-        .imgbox {
-            display: grid;
-            height: 100%;
-        }
-        .center-fit {
-            max-width: 100%;
-            max-height: 100vh;
-            margin: auto;
-        }
-        h1{
-            font-family: 'Roboto', sans-serif;  
-		}
+              
+                           
+ * {
+     margin: 0;
+     padding: 0;
+ }
+.textcenter{
+     text-align: center;
+     position: relative;
+     top: 150px;
+     font-size: x-large; 
+     font-weight: bold;
+     
+}
+
+
+
+
+
         
