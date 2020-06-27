@@ -1,4 +1,10 @@
- 
+ .backing{
+    background: white;
+    border-radius: 25px;
+    height: 275px;
+    
+
+}
   .textcenter{
      text-align: center;
      position: relative;
@@ -7,6 +13,7 @@
      font-weight: bold;
      margin: 0;
      padding: 0;
+     background: inherit;
      
 }
  .headcenter {
@@ -16,23 +23,30 @@
     top: 50px;
     margin: 0;
     padding: 0;
+    background: inherit;
+    display: flex;
+    justify-content: center;
  }          
+ 
  .navcenter {
     position: relative;
     text-align: center;
     top: 75px;
-    left: 490px;
     font-size: x-large; 
-    font-weight: 900;
+    font-weight: 700;
     margin: 0;
     padding: 0;
-    display: inline;
+    display: flex;
+    justify-content: center;
+    /*background: inherit;*/
+    border-radius: inherit;
+    padding: 0px;
+    
     }
 
- * {
-     margin: 0;
-     padding: 0;
- }
+
+
+
 
 
 
