@@ -1,29 +1,41 @@
- .backing{
+ body {
+    font-family: 'Raleway', sans-serif;
+    background-image: url();
+}
+ .backing {
     background: white;
     border-radius: 25px;
-    height: 275px;
+    height: 65vh;
+    width: 400px;
+    position: fixed;
+    box-shadow: 1px 2px 20px 2px rgb(70, 44, 44);
+    
+    
+    
+    
     
 
 }
-  .textcenter{
+  .textcenter {
      text-align: center;
      position: relative;
-     top: 100px;
-     font-size: x-large; 
+     font-size: large; 
      font-weight: bold;
      margin: 0;
      padding: 0;
-     background: inherit;
+     display: block;
+     
+     
+     
      
 }
  .headcenter {
     position: relative;
     text-align: center;
-    font-size: 50px; 
+    font-size: 40px; 
     top: 50px;
     margin: 0;
     padding: 0;
-    background: inherit;
     display: flex;
     justify-content: center;
  }          
@@ -38,11 +50,45 @@
     padding: 0;
     display: flex;
     justify-content: center;
-    /*background: inherit;*/
     border-radius: inherit;
-    padding: 0px;
-    
+        
+}
+
+a:link {
+    text-decoration: none;
+    color: pink;
+}
+
+a:visited {
+    color: pink;
+}
+
+a:hover {
+    color: purple;
+}
+h1 a:link {
+    text-decoration: none;
+    color: black;
+}
+h1 a:visited {
+    text-decoration: none;
+    color: rgb(44, 44, 44);
+}
+h1 a:hover {
+    text-decoration: none;
+    color: pink;
+}
+ *{
+    overflow-x: scroll; 
+}
+@media screen and (orientation: portrait){
+    .backing {
+     /*   position: fixed; */
+        width: 98vw;
+        height: 20vh;
     }
+}
+
 
 
 
