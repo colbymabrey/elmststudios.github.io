@@ -1,20 +1,15 @@
  body {
     font-family: 'Raleway', sans-serif;
-    background-image: url();
+    background-image: url("/images/swirl.jpg");
 }
  .backing {
-    background: white;
+    background: rgb(255, 255, 255);
     border-radius: 25px;
     height: 65vh;
     width: 400px;
     position: fixed;
     box-shadow: 1px 2px 20px 2px rgb(70, 44, 44);
     
-    
-    
-    
-    
-
 }
   .textcenter {
      text-align: center;
@@ -36,8 +31,7 @@
     top: 50px;
     margin: 0;
     padding: 0;
-    display: flex;
-    justify-content: center;
+    
  }          
  
  .navcenter {
@@ -86,6 +80,22 @@ h1 a:hover {
      /*   position: fixed; */
         width: 98vw;
         height: 20vh;
+    }
+}
+
+.pom{
+    width: 75px;
+    height: 75px;
+    left: 42%;
+    top: 25px;
+    position: relative;
+    text-align: center;
+    
+}
+@media screen and (orientation: portrait){
+    .pom {
+     /*   position: fixed; */
+        left: 45%;
     }
 }
 
