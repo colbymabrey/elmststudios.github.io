@@ -80,6 +80,7 @@ h1 a:hover {
      /*   position: fixed; */
         width: 98vw;
         height: 20vh;
+        
     }
 }
 
@@ -104,8 +105,12 @@ h1 a:hover {
     position: relative;
     font-size: 50px;
     top: 95px;
-    
-
+}
+@media screen and (orientation: portrait){
+    .icons {
+     /*   position: fixed; */
+        font-size: 75px;
+    }
 }
 .footer{
     text-align: center;
@@ -124,6 +129,7 @@ h1 a:hover {
     position: fixed;
     left: 10px;
     bottom: 35px;
+    box-shadow: 1px 2px 20px 2px rgb(70, 44, 44);
     
 }
 
