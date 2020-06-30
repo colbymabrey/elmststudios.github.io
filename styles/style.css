@@ -73,7 +73,8 @@ h1 a:hover {
     color: pink;
 }
  *{
-    overflow-x: scroll; 
+    overflow: hidden;
+    overflow-y: auto; 
 }
 @media screen and (orientation: portrait){
     .backing {
@@ -130,7 +131,7 @@ h1 a:hover {
     left: 10px;
     bottom: 35px;
     box-shadow: 1px 2px 20px 2px rgb(70, 44, 44);
-    resize: both;
+    
     
 }
 @media screen and (orientation: landscape) and (max-height: 600px){
