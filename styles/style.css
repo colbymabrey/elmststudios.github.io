@@ -13,6 +13,8 @@ html {
     width: 400px;
     position: fixed;
     box-shadow: 1px 2px 20px 2px rgb(70, 44, 44);
+    padding: 10px;
+    margin: 10px;
     
 }
   .textcenter {
@@ -49,6 +51,8 @@ html {
     display: flex;
     justify-content: center;
     border-radius: inherit;
+    overflow-y: auto;
+    height: ;
         
 }
 
@@ -78,7 +82,7 @@ h1 a:hover {
 }
  *{
     overflow: hidden;
-    overflow-y: auto; 
+    overflow-y: hidden; 
 }
 @media screen and (orientation: portrait){
     .backing {
@@ -126,6 +130,7 @@ h1 a:hover {
     position: relative;
     font-size: 50px;
     top: 95px;
+    overflow: hidden;
 }
 @media screen and (orientation: portrait){
     .icons {
@@ -140,21 +145,25 @@ h1 a:hover {
     bottom: 0;
     left: 0; 
     width: 100vw;
-    height: 15px;
-    font-size: small;
+    height: 10px;
+    font-size: x-small;
     color: white;
     opacity: .6;
+}
+div span{
+    font-size: xx-small;
 }
 .vid{
     display: inline-block;
     position: fixed;
     left: 10px;
-    bottom: 35px;
+    bottom: 30px;
     box-shadow: 1px 2px 20px 2px rgb(70, 44, 44);
     background: rgba(255, 255, 255, 0.635);
     border: 2px solid rgba(255, 255, 255, 0);
     border-radius: 25px;
     opacity: .65;
+    
     
     
 }
@@ -169,15 +178,15 @@ h1 a:hover {
      display: inline-block;
      position: fixed;
      height: auto;
-     left: 10px;
-     bottom: 50px;
+     left: 20px;
+     bottom: 40px;
      box-shadow: 1px 2px 20px 2px rgb(70, 44, 44);
     }
 }
 @media screen and (orientation: portrait) and (min-height: 100px){
     .vid{
      height: 400px;
-     top: 27vh;
+     top: 28vh;
     }
 }
 .hidespot{
