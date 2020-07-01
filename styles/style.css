@@ -154,7 +154,7 @@ div span{
     font-size: xx-small;
 }
 .vid{
-    display: inline-block;
+    display: block;
     position: fixed;
     left: 10px;
     bottom: 30px;
@@ -192,6 +192,7 @@ div span{
 .hidespot{
     position: relative;
     left: 22%;
+    top: 115px;
     overflow: visible;
     margin: 0;
     padding: 10px;
