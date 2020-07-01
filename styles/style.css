@@ -1,9 +1,13 @@
+html {
+    box-sizing: border-box;
+}
  body {
     font-family: 'Raleway', sans-serif;
     background-image: url("/images/swirl.jpg");
+    
 }
  .backing {
-    background: rgb(255, 255, 255);
+    background: rgba(250, 250, 250, 0.635);
     border-radius: 25px;
     height: 65vh;
     width: 400px;
@@ -84,6 +88,22 @@ h1 a:hover {
         
     }
 }
+@media screen and (min-height: 900px){
+    .backing {
+     /*   position: fixed; */
+        width: 400px;
+        height: 45vh;
+        
+    }
+}
+@media screen and (min-height: 100px) and (orientation: portrait){
+    .backing {
+     /*   position: fixed; */
+        width: 98vw;
+        height: 25vh;
+        
+    }
+}
 
 .pom{
     width: 75px;
@@ -131,13 +151,51 @@ h1 a:hover {
     left: 10px;
     bottom: 35px;
     box-shadow: 1px 2px 20px 2px rgb(70, 44, 44);
+    background: rgba(255, 255, 255, 0.635);
+    border: 2px solid rgba(255, 255, 255, 0);
+    border-radius: 25px;
+    opacity: .65;
     
     
 }
-@media screen and (orientation: landscape) and (max-height: 600px){
+@media screen and (orientation: landscape) and (min-height: 100px){
     .vid{
      height: 100px;
+     bottom: 45px;
     }
+}
+@media screen and (min-height: 700px){
+    .vid{
+     display: inline-block;
+     position: fixed;
+     height: auto;
+     left: 10px;
+     bottom: 50px;
+     box-shadow: 1px 2px 20px 2px rgb(70, 44, 44);
+    }
+}
+@media screen and (orientation: portrait) and (min-height: 100px){
+    .vid{
+     height: 400px;
+     top: 27vh;
+    }
+}
+.hidespot{
+    position: relative;
+    left: 22%;
+    overflow: visible;
+    margin: 0;
+    padding: 10px;
+}
+ p a:link, p a:visited{
+    color: black;
+    opacity: 1;
+    font-weight: bold;
+}
+p a:hover{
+    color: rgb(242, 7, 242);
+    opacity: 1;
+    font-weight: bold;
 }
 
 

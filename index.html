@@ -2,7 +2,7 @@
 <!--TO DO: actually make something good - add a mobile version - add different pages(contact, about, ect...)
 - make it pretty - -->
 
-<!-- you can construct a mobile version of the website using @media rule, which will allow you to apply a stylesheet based on the viewport width, device, ect....-->
+<!-- you can construct a mobile version of the website using @media rule, which will allow you to apply a stylesheet based on the viewport width, device, ect.... though apparently thats not an ideal solution as it can take far too much work.... read this article: https://responsivedesign.is/articles/why-you-dont-need-device-specific-breakpoints/ -->
 
 <!-- background from : https://www.freepik.com/free-photos-vectors/background-->
 
@@ -26,6 +26,7 @@
        
 </head>
 <body>  
+
   <div class="backing">
 
         <a href="index.html"><img class="pom" src="images/fruit.png" width="512" height="512"></a>   
@@ -48,7 +49,8 @@
   </div>
     
   <div class="vid">
-    <iframe src="https://open.spotify.com/embed/album/1DFixLWuPkv3KT3TnV35m3" width="390" height="175" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
+    <p class="hidespot"><a href="javascript:alert('Hello');">Hide/Show Spotify Player</a></p>
+    <iframe src="https://open.spotify.com/embed/album/1DFixLWuPkv3KT3TnV35m3" width="390" height="400" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
   </div>
 
   <div class="footer">Granada Street Studios 2020</div> 
